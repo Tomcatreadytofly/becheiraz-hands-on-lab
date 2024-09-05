@@ -1,0 +1,17 @@
+fileVersion: 1
+id: "7"
+mappingDefinitions:
+  PROD:
+    database: BECHEIRAZ
+    schema: WORKPROD
+  SRC:
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+  TEST:
+    database: BECHEIRAZ
+    schema: WORKTEST
+  WORK:
+    database: BECHEIRAZ
+    schema: WORKDEV
+name: Testing
+type: Environment
