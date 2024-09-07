@@ -2,14 +2,14 @@ fileVersion: 1
 id: "8"
 mappingDefinitions:
   PROD:
-    database: ""
-    schema: ""
+    database: BECHEIRAZ
+    schema: WORKPROD
   SRC:
     database: SNOWFLAKE_SAMPLE_DATA
     schema: TPCH_SF1
   TEST:
-    database: ""
-    schema: ""
+    database: BECHEIRAZ
+    schema: WORKTEST
   WORK:
     database: BECHEIRAZ
     schema: WORKPROD
