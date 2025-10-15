@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datengestützte Geschäftsmodelle - Geschäftsreport 2024</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">
+                        <i data-lucide="database" class="logo-icon"></i>
+                        <span class="logo-text">DataBiz Analytics</span>
+                    </div>
+                </div>
+                <div class="header-meta">
+                    <span class="report-date">Q4 2024 Report</span>
+                    <span class="report-type">Geschäftsanalyse</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Datengestützte Geschäftsmodelle
+                    <span class="hero-subtitle">Strategische Analyse und Marktpotentiale</span>
+                </h1>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i data-lucide="trending-up"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-value">+127%</div>
+                            <div class="stat-label">Umsatzwachstum</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i data-lucide="users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-value">2.4M</div>
+                            <div class="stat-label">Aktive Nutzer</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i data-lucide="brain"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-value">98.7%</div>
+                            <div class="stat-label">Datenqualität</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Executive Summary -->
+    <section class="executive-summary">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Executive Summary</h2>
+                <p class="section-subtitle">Kernerkenntnisse und strategische Empfehlungen</p>
+            </div>
+            
+            <div class="summary-grid">
+                <div class="summary-card highlight">
+                    <div class="card-header">
+                        <i data-lucide="target" class="card-icon"></i>
+                        <h3>Strategische Ziele</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Transformation zu einem vollständig datengestützten Geschäftsmodell mit Fokus auf Predictive Analytics und Real-time Decision Making.</p>
+                        <ul class="key-points">
+                            <li>Erhöhung der Datenmonetarisierung um 200%</li>
+                            <li>Implementierung von ML-basierten Empfehlungssystemen</li>
+                            <li>Aufbau einer Data-as-a-Service Plattform</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="summary-card">
+                    <div class="card-header">
+                        <i data-lucide="lightbulb" class="card-icon"></i>
+                        <h3>Marktchancen</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Der globale Markt für datengestützte Geschäftsmodelle wächst mit 15.3% CAGR und bietet erhebliche Expansionsmöglichkeiten.</p>
+                        <div class="progress-indicator">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 78%"></div>
+                            </div>
+                            <span class="progress-label">Marktpenetration: 78%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Architecture Overview -->
+    <section class="data-architecture">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Datenarchitektur & Analytics Pipeline</h2>
+                <p class="section-subtitle">Moderne Data Warehouse Infrastruktur</p>
+            </div>
+            
+            <div class="architecture-flow">
+                <div class="flow-stage">
+                    <div class="stage-icon">
+                        <i data-lucide="database"></i>
+                    </div>
+                    <h4>Datenquellen</h4>
+                    <div class="stage-items">
+                        <span class="item">Customer Data</span>
+                        <span class="item">Order Systems</span>
+                        <span class="item">Supply Chain</span>
+                        <span class="item">External APIs</span>
+                    </div>
+                </div>
+                
+                <div class="flow-arrow">
+                    <i data-lucide="arrow-right"></i>
+                </div>
+                
+                <div class="flow-stage">
+                    <div class="stage-icon">
+                        <i data-lucide="settings"></i>
+                    </div>
+                    <h4>ETL Processing</h4>
+                    <div class="stage-items">
+                        <span class="item">Data Staging</span>
+                        <span class="item">Transformation</span>
+                        <span class="item">Quality Checks</span>
+                        <span class="item">Validation</span>
+                    </div>
+                </div>
+                
+                <div class="flow-arrow">
+                    <i data-lucide="arrow-right"></i>
+                </div>
+                
+                <div class="flow-stage">
+                    <div class="stage-icon">
+                        <i data-lucide="layers"></i>
+                    </div>
+                    <h4>Data Warehouse</h4>
+                    <div class="stage-items">
+                        <span class="item">Dimensional Models</span>
+                        <span class="item">Fact Tables</span>
+                        <span class="item">Aggregations</span>
+                        <span class="item">Historical Data</span>
+                    </div>
+                </div>
+                
+                <div class="flow-arrow">
+                    <i data-lucide="arrow-right"></i>
+                </div>
+                
+                <div class="flow-stage">
+                    <div class="stage-icon">
+                        <i data-lucide="bar-chart-3"></i>
+                    </div>
+                    <h4>Analytics & BI</h4>
+                    <div class="stage-items">
+                        <span class="item">Dashboards</span>
+                        <span class="item">Reports</span>
+                        <span class="item">ML Models</span>
+                        <span class="item">Predictions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Metrics Dashboard -->
+    <section class="metrics-dashboard">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Performance Kennzahlen</h2>
+                <p class="section-subtitle">Datenbasierte Geschäftsergebnisse im Überblick</p>
+            </div>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-header">
+                        <h4>Umsatzentwicklung</h4>
+                        <span class="metric-trend positive">+23.5%</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="revenueChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-header">
+                        <h4>Kundenakquisition</h4>
+                        <span class="metric-trend positive">+18.2%</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="customerChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-header">
+                        <h4>Datenverarbeitung</h4>
+                        <span class="metric-trend neutral">Real-time</span>
+                    </div>
+                    <div class="processing-stats">
+                        <div class="stat-row">
+                            <span class="stat-label">Tägliche Verarbeitung</span>
+                            <span class="stat-value">2.8 TB</span>
+                        </div>
+                        <div class="stat-row">
+                            <span class="stat-label">Latenz (Ø)</span>
+                            <span class="stat-value">< 100ms</span>
+                        </div>
+                        <div class="stat-row">
+                            <span class="stat-label">Verfügbarkeit</span>
+                            <span class="stat-value">99.97%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="metric-card">
+                    <div class="metric-header">
+                        <h4>ROI Dateninitiatives</h4>
+                        <span class="metric-trend positive">+340%</span>
+                    </div>
+                    <div class="roi-breakdown">
+                        <div class="roi-item">
+                            <div class="roi-bar">
+                                <div class="roi-fill" style="width: 85%"></div>
+                            </div>
+                            <span class="roi-label">Automatisierung</span>
+                        </div>
+                        <div class="roi-item">
+                            <div class="roi-bar">
+                                <div class="roi-fill" style="width: 72%"></div>
+                            </div>
+                            <span class="roi-label">Personalisierung</span>
+                        </div>
+                        <div class="roi-item">
+                            <div class="roi-bar">
+                                <div class="roi-fill" style="width: 91%"></div>
+                            </div>
+                            <span class="roi-label">Predictive Analytics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Model Analysis -->
+    <section class="business-models">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Datengestützte Geschäftsmodelle</h2>
+                <p class="section-subtitle">Analyse verschiedener Monetarisierungsstrategien</p>
+            </div>
+            
+            <div class="models-grid">
+                <div class="model-card">
+                    <div class="model-icon">
+                        <i data-lucide="shopping-cart"></i>
+                    </div>
+                    <h3>Data-Enhanced Products</h3>
+                    <p class="model-description">Integration von Datenanalysen in bestehende Produkte zur Wertsteigerung</p>
+                    <div class="model-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Umsatzanteil</span>
+                            <span class="metric-value">42%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Wachstumsrate</span>
+                            <span class="metric-value">+28%</span>
+                        </div>
+                    </div>
+                    <div class="model-examples">
+                        <span class="example-tag">Personalisierte Empfehlungen</span>
+                        <span class="example-tag">Predictive Maintenance</span>
+                        <span class="example-tag">Smart Pricing</span>
+                    </div>
+                </div>
+                
+                <div class="model-card">
+                    <div class="model-icon">
+                        <i data-lucide="cloud"></i>
+                    </div>
+                    <h3>Data-as-a-Service</h3>
+                    <p class="model-description">Direkter Verkauf von Datenanalysen und Insights als eigenständige Dienstleistung</p>
+                    <div class="model-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Umsatzanteil</span>
+                            <span class="metric-value">31%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Wachstumsrate</span>
+                            <span class="metric-value">+45%</span>
+                        </div>
+                    </div>
+                    <div class="model-examples">
+                        <span class="example-tag">API-basierte Services</span>
+                        <span class="example-tag">Branchenreports</span>
+                        <span class="example-tag">Benchmarking</span>
+                    </div>
+                </div>
+                
+                <div class="model-card">
+                    <div class="model-icon">
+                        <i data-lucide="network"></i>
+                    </div>
+                    <h3>Platform Business</h3>
+                    <p class="model-description">Aufbau von datengetriebenen Plattformen für Drittanbieter und Partner</p>
+                    <div class="model-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Umsatzanteil</span>
+                            <span class="metric-value">27%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Wachstumsrate</span>
+                            <span class="metric-value">+62%</span>
+                        </div>
+                    </div>
+                    <div class="model-examples">
+                        <span class="example-tag">Marketplace Analytics</span>
+                        <span class="example-tag">Partner Dashboards</span>
+                        <span class="example-tag">Ecosystem Insights</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategic Recommendations -->
+    <section class="recommendations">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Strategische Empfehlungen</h2>
+                <p class="section-subtitle">Handlungsfelder für nachhaltiges Wachstum</p>
+            </div>
+            
+            <div class="recommendations-list">
+                <div class="recommendation-item priority-high">
+                    <div class="recommendation-header">
+                        <div class="priority-badge high">Hoch</div>
+                        <h4>Ausbau der Real-time Analytics Capabilities</h4>
+                    </div>
+                    <p class="recommendation-description">
+                        Investition in Stream Processing und Edge Computing zur Reduzierung der Latenz 
+                        bei kritischen Geschäftsentscheidungen von aktuell 100ms auf unter 10ms.
+                    </p>
+                    <div class="recommendation-impact">
+                        <div class="impact-item">
+                            <i data-lucide="clock"></i>
+                            <span>Zeithorizont: 6 Monate</span>
+                        </div>
+                        <div class="impact-item">
+                            <i data-lucide="dollar-sign"></i>
+                            <span>Investition: €2.3M</span>
+                        </div>
+                        <div class="impact-item">
+                            <i data-lucide="trending-up"></i>
+                            <span>ROI: 280%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="recommendation-item priority-medium">
+                    <div class="recommendation-header">
+                        <div class="priority-badge medium">Mittel</div>
+                        <h4>Entwicklung einer Data Marketplace Strategie</h4>
+                    </div>
+                    <p class="recommendation-description">
+                        Aufbau einer internen und externen Datenhandelsplattform zur Monetarisierung 
+                        nicht-sensibler Datensätze und zur Erschließung neuer Umsatzquellen.
+                    </p>
+                    <div class="recommendation-impact">
+                        <div class="impact-item">
+                            <i data-lucide="clock"></i>
+                            <span>Zeithorizont: 12 Monate</span>
+                        </div>
+                        <div class="impact-item">
+                            <i data-lucide="dollar-sign"></i>
+                            <span>Investition: €1.8M</span>
+                        </div>
+                        <div class="impact-item">
+                            <i data-lucide="trending-up"></i>
+                            <span>ROI: 195%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="recommendation-item priority-low">
+                    <div class="recommendation-header">
+                        <div class="priority-badge low">Niedrig</div>
+                        <h4>Implementierung von Federated Learning</h4>
+                    </div>
+                    <p class="recommendation-description">
+                        Einführung von dezentralen ML-Modellen zur Verbesserung der Datenqualität 
+                        und zum Schutz der Privatsphäre bei gleichzeitiger Steigerung der Modellgenauigkeit.
+                    </p>
+                    <div class="recommendation-impact">
+                        <div class="impact-item">
+                            <i data-lucide="clock"></i>
+                            <span>Zeithorizont: 18 Monate</span>
+                        </div>
+                        <div class="impact-item">
+                            <i data-lucide="dollar-sign"></i>
+                            <span>Investition: €950K</span>
+                        </div>
+                        <div class="impact-item">
+                            <i data-lucide="trending-up"></i>
+                            <span>ROI: 145%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i data-lucide="database" class="logo-icon"></i>
+                        <span class="logo-text">DataBiz Analytics</span>
+                    </div>
+                    <p class="footer-description">
+                        Führend in datengestützten Geschäftsmodellen und Analytics-Lösungen
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h5>Kontakt</h5>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <span>analytics@databiz.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="phone"></i>
+                            <span>+49 (0) 30 123 456 789</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h5>Report Details</h5>
+                    <div class="report-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Berichtszeitraum:</span>
+                            <span class="meta-value">Q4 2024</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Erstellt am:</span>
+                            <span class="meta-value">15. Oktober 2024</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Version:</span>
+                            <span class="meta-value">2.1.0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 DataBiz Analytics. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
